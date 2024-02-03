@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply flex min-h-screen w-full items-center justify-center desktop:p-0 p-6 text-white bg-offBlack font-inter;
+}
+.card {
+    @apply flex h-auto w-96 flex-col items-center justify-center gap-y-6 rounded-xl p-10 text-center bg-darkGrey;
+}
+.button {
+    @apply w-full rounded-lg p-3 text-sm font-bold transition-colors duration-300 bg-grey hover:bg-green hover:text-grey;
+    line-height: 150%;
+}
